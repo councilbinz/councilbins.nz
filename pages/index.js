@@ -30,12 +30,12 @@ export default class Index extends React.Component {
       sortOptions: {
         latest: {
           name: "Latest",
-          active: true,
+          active: false,
           func: this.sortLatest,
         },
         oldest: {
           name: "Oldest",
-          active: false,
+          active: true,
           func: this.sortOldest,
         },
         name: {
