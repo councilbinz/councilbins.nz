@@ -72,6 +72,8 @@ export default {
       slug: "selwyn-district",
       localAuthorityCode: "SDC",
       collectionDate: "2 May 2022",
+      contributorHandle: "@samrag",
+      contributorURL: "https://twitter.com/samrag",
       colour: "black",
       councilName: "Selwyn District",
     },
