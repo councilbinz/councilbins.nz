@@ -68,7 +68,7 @@ export default {
       councilName: "Hamilton City",
     },
     {
-      fileName: "selwyn1.jpg",
+      fileName: "selwyn.jpg",
       slug: "selwyn-district",
       localAuthorityCode: "SDC",
       collectionDate: "2 May 2022",
