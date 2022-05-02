@@ -22,7 +22,6 @@ const Guidelines = () => {
           <h2 className="text-2xl mb-5">Consistent photos</h2>
           <ul>
             <Li>Flat and straight to the bin</Li>
-            <Li>Smaller than 250Kb</Li>
             <Li>Have enough space to be cropped</Li>
             <Li>Landscape (4:3 ratio)</Li>
             <Li>

@@ -32,7 +32,12 @@ const Upload = () => {
     <>
       <div className="mx-auto w-full px-4 lg:px-0 lg:w-1/3 mb-20 mt-8 pt-5">
         <h1 className="text-3xl">Send your photos</h1>
-        <p>This form is currently under maintenance.</p>
+        <iframe
+          src="https://www.cognitoforms.com/f/dOnC9MM_h0OUZ3eZU-ZWiA/1"
+          style={{ border: 0, width: "100%" }}
+          height="720"
+        ></iframe>
+        <script src="https://www.cognitoforms.com/f/iframe.js"></script>
       </div>
     </>
   );
