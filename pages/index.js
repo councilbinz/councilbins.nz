@@ -48,11 +48,11 @@ export default class Index extends React.Component {
           active: false,
           func: this.sortColour,
         },
-        retro: {
-          name: "Retro",
-          active: false,
-          func: this.showRetro,
-        },
+        //retro: {
+        //  name: "Retro",
+        //  active: false,
+        //  func: this.showRetro,
+        //},
       },
     };
   }
