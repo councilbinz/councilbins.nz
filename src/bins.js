@@ -67,5 +67,13 @@ export default {
       colour: "green",
       councilName: "Hamilton City",
     },
+    {
+      fileName: "selwyn1.jpg",
+      slug: "selwyn-district",
+      localAuthorityCode: "SDC",
+      collectionDate: "2 May 2022",
+      colour: "black",
+      councilName: "Selwyn District",
+    },
   ],
 };

@@ -6,4 +6,5 @@ export default [
   { name: "Invercargill City", slug: "invercargill-city" },
   { name: "Palmerston North City", slug: "palmerston-north-city" },
   { name: "Hamilton City", slug: "hamilton-city" },
+  { name: "Selwyn District", slug: "selwyn-district" },
 ];
