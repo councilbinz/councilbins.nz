@@ -7,7 +7,7 @@ export default {
       collectionDate: "22 April 2022",
       contributorHandle: "@mattlane",
       contributorURL: "https://twitter.com/mattlane",
-      colour: "green",
+      colour: "green-red",
       councilName: "Hutt City",
     },
     {
@@ -17,7 +17,7 @@ export default {
       collectionDate: "22 April 2022",
       contributorHandle: "@mattlane",
       contributorURL: "https://twitter.com/mattlane",
-      colour: "green",
+      colour: "green-red",
       councilName: "New Plymouth District",
     },
     {
@@ -27,7 +27,7 @@ export default {
       collectionDate: "22 April 2022",
       contributorHandle: "@mattlane",
       contributorURL: "https://twitter.com/mattlane",
-      colour: "green",
+      colour: "green-red",
       councilName: "South Taranaki District",
     },
     {
@@ -37,7 +37,7 @@ export default {
       collectionDate: "27 April 2022",
       contributorHandle: "@freylucas",
       contributorURL: "https://twitter.com/freylucas",
-      colour: "black",
+      colour: "black-yellow",
       councilName: "Wellington City",
     },
     {
@@ -46,7 +46,7 @@ export default {
       localAuthorityCode: "ICC",
       collectionDate: "29 April 2022",
       contributorHandle: "Mark Radcliffe",
-      colour: "black",
+      colour: "black-red",
       councilName: "Invercargill City",
     },
     {
@@ -56,7 +56,7 @@ export default {
       collectionDate: "29 April 2022",
       contributorHandle: "@donkey",
       contributorURL: "https://twitter.com/donkey",
-      colour: "black",
+      colour: "black-orange",
       councilName: "Palmerston North City",
     },
     {
@@ -64,7 +64,7 @@ export default {
       slug: "hamilton-city",
       localAuthorityCode: "HCC",
       collectionDate: "29 April 2022",
-      colour: "green",
+      colour: "green-red",
       councilName: "Hamilton City",
     },
     {
@@ -74,7 +74,7 @@ export default {
       collectionDate: "2 May 2022",
       contributorHandle: "@samrag",
       contributorURL: "https://twitter.com/samrag",
-      colour: "black",
+      colour: "black-red",
       councilName: "Selwyn District",
     },
   ],
