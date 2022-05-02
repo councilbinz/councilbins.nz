@@ -70,7 +70,7 @@ export default {
     {
       fileName: "selwyn1.jpg",
       slug: "selwyn-district",
-      localAuthorityCode: "SDDC",
+      localAuthorityCode: "SDC",
       collectionDate: "2 May 2022",
       contributorHandle: "@samrag",
       contributorURL: "https://twitter.com/samrag",
