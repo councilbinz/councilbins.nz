@@ -82,7 +82,7 @@ export default {
       slug: "christchurch-city",
       localAuthorityCode: "CCC",
       collectionDate: "6 May 2022",
-      contributorHandle: "@sjnbrl",
+      contributorHandle: "@jnbrl",
       contributorURL: "https://twitter.com/jnbrl",
       colour: "2-black-red",
       councilName: "Christchurch City",
