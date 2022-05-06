@@ -9,6 +9,12 @@ import "fontsource-rubik";
 
 export default function Govbins({ Component, pageProps }) {
   const router = useRouter();
+  const { bin } = pageProps;
+
+  const socialImages =
+    bin && bin.fileName
+      ? `https://councilbins.nz/${bin.fileName}`
+      : "https://councilbins.nz/images/wellington.jpg";
 
   return (
     <>
@@ -24,11 +30,11 @@ export default function Govbins({ Component, pageProps }) {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://councilbins.nz" />
 
-        <meta property="og:description" content="Cataloguing Aotearoa New Zealand's council wheelie bins" />
         <meta
-          property="og:image"
-          content="https://councilbins.nz/images/wellington.jpg"
+          property="og:description"
+          content="Cataloguing Aotearoa New Zealand's council wheelie bins"
         />
+        <meta property="og:image" content={socialImages} />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://councilbins.nz/" />
@@ -37,10 +43,7 @@ export default function Govbins({ Component, pageProps }) {
           property="twitter:description"
           content="Cataloguing Aotearoa New Zealand's council wheelie bins"
         />
-        <meta
-          property="twitter:image"
-          content="https://councilbins.nz/images/wellington.jpg"
-        />
+        <meta property="twitter:image" content={socialImages} />
 
         <link
           href="https://fonts.googleapis.com/css?family=Rubik"
@@ -51,22 +54,6 @@ export default function Govbins({ Component, pageProps }) {
         src="https://www.googletagmanager.com/gtag/js?id=G-NEELH1V37M"
         strategy="afterInteractive"
       />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'GA_MEASUREMENT_ID');
-        `}
-      </Script>
-      <style jsx global>
-        {`
-          body {
-            background-color: #f8f8f8;
-          }
-        `}
-      </style>
       <div className="font-rubik text-gray-800">
         <header
           className={`w-screen pr-5 pl-5 pt-4 pb-10 md:flex sm:justify-between ${
