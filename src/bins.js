@@ -77,5 +77,15 @@ export default {
       colour: "2-black-red",
       councilName: "Selwyn District",
     },
+    {
+      fileName: "christchurch.jpg",
+      slug: "christchurch-city",
+      localAuthorityCode: "CCC",
+      collectionDate: "6 May 2022",
+      contributorHandle: "@sjnbrl",
+      contributorURL: "https://twitter.com/jnbrl",
+      colour: "2-black-red",
+      councilName: "Christchurch City",
+    },
   ],
 };
