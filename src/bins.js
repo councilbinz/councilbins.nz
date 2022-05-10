@@ -92,6 +92,7 @@ export default {
       slug: "whakatane-district",
       localAuthorityCode: "WDC",
       collectionDate: "10 May 2022",
+      contributorHandle: "Carli Frisby",
       colour: "5-green-green",
       councilName: "Whakatāne District",
     },
