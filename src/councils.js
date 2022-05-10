@@ -8,4 +8,5 @@ export default [
   { name: "Hamilton City", slug: "hamilton-city" },
   { name: "Selwyn District", slug: "selwyn-district" },
   { name: "Christchurch City", slug: "christchurch-city" },
+  { name: "Whakatāne District", slug: "whakatane-district" },
 ];

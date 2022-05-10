@@ -87,5 +87,13 @@ export default {
       colour: "2-black-red",
       councilName: "Christchurch City",
     },
+    {
+      fileName: "whakatane.jpg",
+      slug: "whakatane-district",
+      localAuthorityCode: "WDC",
+      collectionDate: "10 May 2022",
+      colour: "5-green-green",
+      councilName: "Whakatāne District",
+    },
   ],
 };
