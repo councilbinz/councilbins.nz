@@ -96,5 +96,14 @@ export default {
       colour: "5-green-green",
       councilName: "Whakatāne District",
     },
+    {
+      fileName: "tauranga.jpg",
+      slug: "tauranga",
+      localAuthorityCode: "TCC",
+      collectionDate: "27 June 2022",
+      contributorHandle: "Marion Dowd",
+      colour: "1-black-red",
+      councilName: "Tauranga City Council",
+    },
   ],
 };
