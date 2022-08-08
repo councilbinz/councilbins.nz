@@ -1,4 +1,5 @@
-import data from "../src/bins";
+import bins from "../src/bins";
+import bollards from "../src/bollards";
 import binImage from "../utils/binImage";
 import Head from "next/head";
 import Link from "next/link";
@@ -8,7 +9,15 @@ import A from "../components/a";
 export async function getStaticProps({ params }) {
   const { bin: binParam } = params;
 
-  const bin = data.bins.filter((b) => b.slug === binParam)[0];
+  let data = [];
+
+  if (process.env.ITEMS === "bollards") {
+    data = bollards;
+  } else {
+    data = bins;
+  }
+
+  const bin = data.filter((b) => b.slug === binParam)[0];
 
   const council = councils.filter((council) => council.slug == binParam)[0];
 

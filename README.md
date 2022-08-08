@@ -34,3 +34,7 @@ Add the image in `/public/images`, then add another entry in `/src/bins.js` with
     councilName: "New Plymouth District",
   }
 ```
+
+## Adding items
+
+You can add bins or bollard via the env file. It will get dispatch to both server on vercel but will display different items

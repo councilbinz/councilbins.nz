@@ -6,3 +6,4 @@
 .husky
 .vscode
 .next
+.env.local

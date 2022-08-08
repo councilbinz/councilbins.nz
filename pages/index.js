@@ -1,4 +1,5 @@
-import data from "../src/bins";
+import bins from "../src/bins";
+import bollards from "../src/bollards";
 import Bin from "../components/bin";
 import RetroBin from "../components/retroBin";
 import React from "react";
@@ -7,9 +8,19 @@ import moment from "moment";
 import binImage from "../utils/binImage";
 
 export async function getStaticProps() {
+  let data = [];
+
+  if (process.env.ITEMS === "bollards") {
+    data = bollards;
+  } else {
+    data = bins;
+  }
+
+  if (!data && typeof data === "undefined") return false;
+
   return {
     props: {
-      bins: data.bins.map((bin) => binImage(bin)),
+      bins: data.map((bin) => binImage(bin)),
     },
   };
 }
@@ -48,11 +59,6 @@ export default class Index extends React.Component {
           active: false,
           func: this.sortColour,
         },
-        //retro: {
-        //  name: "Retro",
-        //  active: false,
-        //  func: this.showRetro,
-        //},
       },
     };
   }
